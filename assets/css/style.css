@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Bold.ttf);
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #31343d;
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+
+  ul li {
+    font-size: 18px;
+    list-style: none;
+  }
+
+  .navContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #31343d;
+    padding: 10px 20px 10px 0;
+  }
+
+  .navLinks {
+    display: flex;
+  }
+
+  .logoBG {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 400px;
+    background-color: #92cccd;
+    padding-right: 15px;
+  }
