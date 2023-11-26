@@ -9,6 +9,8 @@
 
   :root {
     --bg-lightblue: #92cccd;
+    --color-dark-blue: #31343d;
+    --body-color: #5d6f83;
   }
   
   body {
@@ -16,9 +18,11 @@
     padding: 0;
     font-family: 'Helvetica', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
+    color: var(--body-color)
   }
   
   h1 {
+    color: var(--color-dark-blue);
     font-family: 'Raleway', sans-serif;
   }
   
@@ -28,12 +32,15 @@
   h4,
   h5,
   h6 {
-    color: #31343d;
     margin: 0;
   }
   
   p {
     margin: 0;
+  }
+
+  article {
+    padding: 0 20px 0 20px;
   }
 
   ul li {
@@ -44,13 +51,30 @@
   .nav-container {
     display: flex;
     justify-content: space-between;
-    background-color: #31343d;
+    background-color: var(--color-dark-blue);
     padding: 10px 20px 10px 0;
   }
 
   .nav-links {
     display: flex;
   }
+
+  .nav-links ul {
+    padding-left: 10px;
+  }
+
+/* creates the underline for the navigation links */
+  .nav-links a {
+    color: var(--bg-lightblue);
+    padding-bottom: 3px;
+    text-decoration: none;
+    border-bottom: 3px solid var(--bg-lightblue);
+  }
+
+  .nav-links a:hover {
+    opacity: 70%;
+  }
+
   .d-flex-end {
     display: flex;
     justify-content: end;
@@ -72,7 +96,12 @@
   .hero-subtitle {
     align-items: center;
     background-color: var(--bg-lightblue);
+    color: var(--color-dark-blue);
     padding: 0 10px 0 10px;
+  }
+
+  .page-wrapper {
+    margin-top: 15px;
   }
 
   .page-section {
@@ -80,11 +109,12 @@
   }
 
   .section-title {
-    border-right: 3px solid #000;
-    width: 30%;
+    border-right: 3px solid #5d6f83;
+    width: 50%;
   }
 
-  .title-break {
+  .title-text {
     max-width: min-content;
     align-items: end;
+    padding-right: 20px;
   }
