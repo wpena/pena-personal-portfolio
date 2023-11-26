@@ -6,11 +6,15 @@
     font-family: "Raleway";
     src: url(../fonts/Raleway-Bold.ttf);
   }
+
+  :root {
+    --bg-lightblue: #92cccd;
+  }
   
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Helvetica', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
   }
   
@@ -37,22 +41,50 @@
     list-style: none;
   }
 
-  .navContainer {
+  .nav-container {
     display: flex;
     justify-content: space-between;
     background-color: #31343d;
     padding: 10px 20px 10px 0;
   }
 
-  .navLinks {
+  .nav-links {
+    display: flex;
+  }
+  .d-flex-end {
+    display: flex;
+    justify-content: end;
+  }
+
+  .logo-bg {
+    align-items: center;
+    width: 400px;
+    background-color: var(--bg-lightblue);
+    padding-right: 15px;
+  }
+
+  .hero-banner {
+    background-image: url(../images/02-hero-bg.jpg);
+    align-items: end;
+    height: 150px;
+  }
+
+  .hero-subtitle {
+    align-items: center;
+    background-color: var(--bg-lightblue);
+    padding: 0 10px 0 10px;
+  }
+
+  .page-section {
     display: flex;
   }
 
-  .logoBG {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    width: 400px;
-    background-color: #92cccd;
-    padding-right: 15px;
+  .section-title {
+    border-right: 3px solid #000;
+    width: 30%;
+  }
+
+  .title-break {
+    max-width: min-content;
+    align-items: end;
   }
