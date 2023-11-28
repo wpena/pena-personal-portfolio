@@ -8,10 +8,12 @@ N/A
 
 ## Usage
 [Click here to view the live site: ](https://wpena.github.io/pena-personal-portfolio/) 
+![pena-personal-portfolio](https://github.com/wpena/pena-personal-portfolio/assets/38634790/45e8ac41-b974-4d93-bb39-d34d6301433c)
 
 Open the website in the browser of your choosing and test it, making sure all links and any functionality on the page works.
 
-Below is a screenshot of what the site, looks like: 
+Below is a screenshot of what the site, looks like:
+
 
 ## Credits
 Thanks to Bootcamp Activity [02-css-module/02-grid-media-queries-lesson] for assisting me with grids
